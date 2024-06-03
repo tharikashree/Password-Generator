@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="pg.css">
+    
+</head>
+<body>
+    <div id="container">
+        <h1>Password Generator</h1>
+        <h3 id="pwd-el">password</h3>
+        <form id="form-el">
+           <label for="num-el">Number of characters</label>
+            <div class="in-el">
+                <input id="char-el" type="range" min="1" max="30" value="10" >
+                <input id="num-el" type="number" min="1" max="30" value="10" >
+            </div>
+            <label for="up-el">Include Uppercase</label>
+            <input type="checkbox" id="up-el">
+            <label for="no-el">Include Numbers</label>
+            <input type="checkbox" id="no-el" >
+            <label for="sym-el">Include Symbols</label>
+            <input type="checkbox" id="sym-el">
+            <label for="inp-el">Include Word</label>
+            <input type="textbox" id="inp-el">
+            <label for="inpnum-el">Include Number</label>
+            <input type="textbox" id="inpnum-el">
+            <button id="gen-el" type="submit">Generate Password</button>
+        </form>
+    </div>
+    <script src="pgen.js" defer></script>
+</body>
+</html>

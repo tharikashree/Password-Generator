@@ -1,0 +1,83 @@
+body{
+
+    background-color: rgba(0, 0, 0, 0.574);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family:fantasy;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-image: linear-gradient(to bottom,pink, lightblue);
+}
+h1{
+    text-align: center;
+    margin: 0;
+    
+}
+.in-el{
+    display: flex;
+    align-items: center;
+}
+#char-el{
+        width: 60px;
+        height: 25px;
+        cursor: pointer;
+}
+#num-el{
+    max-width: 2rem;
+}
+#container{
+    background-color: lightblue;
+    margin: 1px solid black;
+    padding: 30px;
+    box-shadow: 1px 1px 1px 0.5px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#pwd-el{
+    background-color:white;
+    border: 1px solid black;
+    padding: 5px 40px;
+    box-shadow: 1px 1px 4px;
+    border-radius: 5px;
+    height: 2rem;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+
+}
+#form-el{
+    display:grid;
+    grid-template-columns: auto auto;
+    row-gap: 15px;
+    column-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+     grid-column: span 2;
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+        padding: .5rem 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 1rem;
+
+}
+button:hover{
+    font-size: medium;
+    background-color: #FFFFFF33;
+}
